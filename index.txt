@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href="utils.css" rel="stylesheet" type="text/css"/>
+    
+</head>
+<body>
+    <header class="container">
+        <nav class="flex" >
+            <div class="left flex itoms-center">
+    <img src="image/logo.png" /> 
+                <ul class="flex itoms-center justify-center">
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Kids</li>
+                    <li>Home and Living</li>
+                    <li>Beauty</li>
+                    <li>Studio</li>
+                    
+                </ul>
+            </div>
+            <div class="right flex items-center">
+                <input class="search" placeholder="Search for products, brands and more" class="desktop-searchBar" value="" data-reactid="904">
+                <div class="rightBox">
+                <div class="profile mx-2">Profile</div>
+                <div class="wishlist mx-2">WishList</div>
+                <div class="bag mx-2">Bag</div>
+                  </div>
+              </div>
+        </nav>
+    </header>
+    <section class="container section1">
+        <img class="homeImg" src="image/home.png"/>
+         <img class="homeImg" src="image/photo.png"/>
+         <img class="homeImg" src="image/photo11.jpg"/>
+    </section>
+    <section class="container section1">
+        <img class="homeImg" src="image/home.png"/>
+         <img class="homeImg" src="image/photo.png"/>
+         <img class="homeImg" src="image/photo11.jpg"/>
+    </section>
+    <section class="container section1 flex flex-wrap">
+         <img class="itemImg" src="image/photo1.png"/>
+         <img class="itemImg" src="image/photo2.png"/>
+         <img class="itemImg" src="image/photo3.png"/>
+         <img class="itemImg" src="image/photo4.png"/>
+         <img class="itemImg" src="image/photo5.png"/> 
+         <img class="itemImg" src="image/photo6.png"/>
+         <img class="itemImg" src="image/photo7.png"/>
+    </section>
+    <section class="tall">
+    
+    </section>
+       <footer>
+         Copyright &copy; myntra.com | All rights reserved
+       </footer>
+    <script src="script.js"></script>
+     
+</body>
+</html>
